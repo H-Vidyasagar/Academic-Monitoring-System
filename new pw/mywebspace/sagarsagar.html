@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sagar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+
+        /*@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Supermercado+One&display=swap');*/
+        @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background: url("bck3.jpg");
+            background-color: antiquewhite;
+            background-size:cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-size: 20px;
+            color:#fff;
+        }
+
+        #header-fix{
+            width:100%;
+            height: 0px;
+            margin-top: -30px;
+            position: fixed;
+        }
+
+        .container{
+            margin:0 auto;
+        }
+
+        #nav{
+            float: right;
+            margin-top: 1px; 
+            width: 500px;
+        }
+
+        #nav ul{
+            list-style: none;
+            margin: 0 auto;
+            display: block;
+
+        }
+
+        #nav li{
+            float:left;
+            padding: 5px 10px;
+        }
+
+        #nav li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Cabin Sketch', cursive;
+           
+        }
+
+        #nav li a:active{
+            border-bottom:3px solid #ccc ;
+        }
+
+        #nav ul li a:hover{
+            border-bottom:3px solid #ccc ;
+        }
+
+        .section{
+            min-height: 5px;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .wrap {
+            background-color:rgba(80,80,80,0.6);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px auto;
+            width:80%;
+            font-family: 'Cabin Sketch', cursive;
+        }
+
+        #home .wrap{
+            margin-top: 30px;
+            background-color:rgba(200,200,200,0);
+        }
+
+        #home .wrap h1{
+            margin-top: 0;
+            margin-bottom: 0px;
+            font-size: 150px;
+            font-family: 'Cabin Sketch', cursive;
+        }
+
+        #home .wrap p{
+            margin-top: 0;
+            margin-bottom: 0px;
+            font-family: 'Cabin Sketch', cursive;
+        }
+
+        #name{
+            font-size: 50px;
+        }
+
+        img{
+            float: right;
+            width: 600px;
+        }
+
+        abbr{
+            text-decoration: none;
+        }
+
+        embed{
+            margin-left: 25%;
+        }
+
+        .footer{
+            background-color:rgba(0,0,0,0.5);
+            text-align: center;
+        }
+
+        .fa {
+            padding: 7px;
+            font-size: 16px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 6px 3px;
+            border-radius:2px;
+            color: #ddd;
+        }
+
+        .fa-linkedin:hover {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-instagram:hover {
+            background: white;
+            color: rgb(211, 1, 106);
+        }
+
+        .fa-google:hover {
+            background: #dd4b39;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header-fix">
+            <div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#home" class="active">HOME</a></li>
+                        <li><a href="#bio" class="active">BIO</a></li>
+                        <li><a href="#skills" class="active">SKILLS</a></li>
+                        <li><a href="#achive" class="active">ACHIVEMENTS</a></li>
+                        <li><a href="#resume" class="active">RESUME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="home" class="section clear">
+            <div class="wrap">
+                <br><br>
+                <img src="myimg2.jpg">
+                <h1>Hi</h1>
+                <p>
+                    I'm <span id="name">H Vidyasagar</span>
+                    <br>Computer science student at BMS College of engineering
+                    <br>Tech-literate , Basic Front end web devoloper <br>
+                     Passionate in IOT , AR and AI.<br><br>
+                     Email:haraluvidyasagarsagar@gmail.com<br><br>
+                     <a href="http://www.instagram.com/roaring_ocean001" class="fa fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/vidyasagar-haralu-18035b220" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-google"></a>
+                </p>
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </section>
+        <section id="bio" class="section">
+            <div class="wrap">
+                <h1>BIO</h1>
+                <p>Once again , MY name is H Vidyasagar and I grew under care and love of My <abbr title="Father:H Kotreshi, Mother:H Shilpa">parents</abbr> in various towns of Vijayanagara Dist. which include Kotturu(MY native) , Kudligi , Huvina Hadagali and Davangere. 
+                    Currently I'm 2nd Year Computer science student at BMS College of Engineering, Basavanagudi, Bengaluru.<br>
+                    I have keen interest in Internet of Things, Augmented reality , Artificial Intelligence.
+                    I am also enthusiastic about Cyberpunk culture - cybernetics.
+                </p>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="wrap">
+                <h1>SKILLS</h1>
+                <p>Basic Front end web devoloper with HTML , CSS , Javascript. Progamming languages I know are C , Python , Java 
+                    . Bit knowledge in Programming and interfacing with Arduno. Rasberry Pi ~ learning in Progress.
+                </p>
+                <h3>Nothing so differnt or special from others but I will be...</h3>
+                <embed src="files/certificates.pdf#toolbar=0" type="application/pdf"  width="50%" height="600px"  />
+
+            </div>
+        </section>
+        <section id="achive" class="section">
+            <div class="wrap">
+                <h1>Achivements</h1>
+                <p>This website creation  ¯\_(ツ)_/¯ <br><br>this column will definitly overflow in future <br><br>I hope so :) </p>
+            </div>
+        </section>
+        <section id="resume" class="section">
+            <div class="wrap">
+                <h1>Resume</h1>
+                <p>Working on it.....</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <div>
+                <div class="col-2">
+                    <p>
+                        &copy;  H Vidyasagar<br>
+                        <a href="http://www.instagram.com/roaring_ocean001" class="fa fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/vidyasagar-haralu-18035b220" class="fa fa-linkedin"></a>
+                        <a href="#home" class="fa fa-google"></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
